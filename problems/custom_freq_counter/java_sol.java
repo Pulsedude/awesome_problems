@@ -1,4 +1,4 @@
-package custom_freq_counter;
+package problems.custom_freq_counter;
 
 import java.util.HashMap;
 

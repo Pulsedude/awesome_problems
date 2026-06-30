@@ -1,4 +1,4 @@
-package minMaxsum;
+package problems.minMaxsum;
 
 import java.util.HashMap;
 
