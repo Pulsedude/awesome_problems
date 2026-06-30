@@ -1,4 +1,4 @@
-package create_grid_with_exact_one_path;
+package problems.create_grid_with_exact_one_path;
 
 import java.util.ArrayList;
 import java.util.Arrays;
