@@ -15,4 +15,5 @@ class Solution:
 # Solution 2: 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        pass
+        pass  
+    
