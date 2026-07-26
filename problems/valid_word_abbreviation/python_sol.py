@@ -24,7 +24,8 @@ class Solution:
             elif word[i] != abbr[j]:
                 return False
             i += 1
-            j += 1
+            j += 1   
+            
         
         return i == n and j == m
 
