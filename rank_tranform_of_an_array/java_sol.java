@@ -26,10 +26,10 @@ class Solution {
             result[i] = ranks.get(arr[i]);
         }
         return result;
-    }
+    } 
 }
 
 // Time: O(n log n)
-// Space: O(n)
+// Space: O(n)  
 
 
