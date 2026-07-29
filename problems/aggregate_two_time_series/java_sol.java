@@ -38,7 +38,7 @@ class CoolSolution {
                 series.add(series1[i][1]);
                 result.add(series);
                 i++;
-            }
+            } 
         }
         if (j < series2.length) {
             while (j < series2.length) {
