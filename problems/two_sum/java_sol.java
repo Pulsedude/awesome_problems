@@ -38,7 +38,7 @@ class CoolSolution2 {
             prevNums.put(nums[i], i);
         }
         return new int[0];
-    }
+    } 
 }
 // Time: O(n)
 // Space: O(n)
@@ -60,7 +60,7 @@ class CoolSolution3 {
                 }
             }
         }
-        return new int[];
+        return new int[0];
     }
 }
 // Time: O(n)
