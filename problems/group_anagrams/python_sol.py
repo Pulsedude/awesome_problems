@@ -42,14 +42,29 @@ class Solution:
         return list(anagrams.values())
 
 # Time: O(m * k log k)
-# Time: O(n)
+# Time: O(k)
 
 # Solution: 3 ----------------------- linear scanning + hashmap
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        alphabets = [0] * 26
+        alphabets = {chr(i): 0 for i in range(97, 123)}
         anagrams = {}
         
-        for i in range(len(strs)):
-            for j in range(len(strs[i][j])):
-                anagrams[ord]
+        for word in strs:            
+            for i in word:
+                alphabets[i] += 1
+            
+            key = "-".join([alphabet * freq for alphabet, freq in alphabets.items() if freq > 0])
+            if anagrams.get(key) is None:
+                anagrams[key] = []
+                anagrams[key].append(word)
+            else:
+                anagrams[key].append(word)
+
+            # reset values
+            alphabets = {chr(i): 0 for i in range(97, 123)}
+        return anagrams
+            
+            
+# Time: O(n * m * k)
+# Space: O(k)
